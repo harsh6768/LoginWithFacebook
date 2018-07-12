@@ -43,7 +43,11 @@ Last and most important past You have to generate keyhash value:
 path openssl:  E:\Software\openssl\bin\openssl.exe 
 4. enter this command>> 
 keytool -exportcert -alias androiddebugkey -keystore "C:\Users\"Username_Of_Your_Computer_Or_Laptop"\.android\debug.keystore" | "Paste_OpenSSl_Path" sha1 -binary |"Paste_OpenSSl_Path " base64
+
+
+![facebook_login_harsh_key](https://user-images.githubusercontent.com/25931598/42662188-4be7ef3c-864e-11e8-86b3-b7883edc3967.PNG)
+
 5.after this command prompt asked 
 Enter KeyStore Password:
 
-![facebook_login_harsh_key](https://user-images.githubusercontent.com/25931598/42662188-4be7ef3c-864e-11e8-86b3-b7883edc3967.PNG)
+![keyhash](https://user-images.githubusercontent.com/25931598/42663074-a935b252-8651-11e8-8018-70e96f44bce3.PNG)
