@@ -1,7 +1,7 @@
 # LoginWithFacebook
 This Demo app will show how to login with facebook and fetch the data like image ,birthday,email and total friends.
 
-##For more details
+## For more details
 [https://developers.facebook.com/docs/facebook-login/android](https://developers.facebook.com/docs/facebook-login/android)
 
 
@@ -15,10 +15,10 @@ you will get app_id and fb_login_protocol_scheme by creating the project on Deve
 
 Add Metadata and permissions in Manifest File:
 
-permission:
-  <uses-permission android:name="android.permission.INTERNET"/>
-  
-Metadata and Activity:
+## Permission: 
+   ### Add Internet Permission
+
+## Metadata and Activity:
 
     <meta-data android:name="com.facebook.sdk.ApplicationId"
         android:value="@string/facebook_app_id"/>
@@ -39,7 +39,7 @@ Metadata and Activity:
         </intent-filter>
     </activity>
 
-
+## For Getting the KeyHash Value:
 Last and most important past You have to generate keyhash value:
 1. You need to install openssl in your computer
 2. Goto C:\Program Files\Java\jre1.8.0_161\bin using command prompt
