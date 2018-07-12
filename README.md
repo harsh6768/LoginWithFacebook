@@ -1,6 +1,10 @@
 # LoginWithFacebook
 This Demo app will show how to login with facebook and fetch the data like image ,birthday,email and total friends.
 
+##For more details
+[https://developers.facebook.com/docs/facebook-login/android](https://developers.facebook.com/docs/facebook-login/android)
+
+
 Add Dependency at App level Gradle file:
 
 ![dependency](https://user-images.githubusercontent.com/25931598/42662871-dc2601fe-8650-11e8-8528-3b49c3b7c5e3.PNG)
