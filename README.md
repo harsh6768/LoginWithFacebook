@@ -7,6 +7,14 @@ This Demo app will show how to login with facebook and fetch the data like image
 
 Add Dependency at App level Gradle file:
 
+1. Glide is Used to set the Images
+       [https://github.com/bumptech/glide](https://github.com/bumptech/glide)
+       
+       
+2. ButterKnife is to instantiate the widget
+  [http://jakewharton.github.io/butterknife/](http://jakewharton.github.io/butterknife/)
+     
+#### 3. Facebook sdk
 ![dependency](https://user-images.githubusercontent.com/25931598/42662871-dc2601fe-8650-11e8-8528-3b49c3b7c5e3.PNG)
 
 
