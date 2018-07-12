@@ -3,22 +3,9 @@ This Demo app will show how to login with facebook and fetch the data like image
 
 Add Dependency at App level Gradle file:
 
+![dependency](https://user-images.githubusercontent.com/25931598/42662871-dc2601fe-8650-11e8-8528-3b49c3b7c5e3.PNG)
 
-//for setting the image
-    implementation 'com.github.bumptech.glide:glide:4.7.1'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
-//for butterKnife
-implementation 'com.jakewharton:butterknife:8.8.1'
-annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-// for the facebook sdk
-implementation 'com.facebook.android:facebook-android-sdk:4.34.0'
 
-Add Strings
-Goto >> Res folder >> values folder>>> string.xml
-
-then add these 2 strings
-<string name="facebook_app_id">1726637274121397</string>            
-<string name="fb_login_protocol_scheme">fb1726637274121397</string>
 
 you will get app_id and fb_login_protocol_scheme by creating the project on Developer.facebook.com
 
